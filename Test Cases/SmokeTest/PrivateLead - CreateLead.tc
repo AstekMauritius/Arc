@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automation Smoke Test :Create Lead: Private lead</description>
+   <name>PrivateLead - CreateLead</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec7a89bf-f355-45a3-967d-af440234fab7</testCaseGuid>
+</TestCaseEntity>

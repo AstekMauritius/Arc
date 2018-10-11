@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InternetLead_NotHandled_Follow_Up_StatusAwaitingQuote</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa0b01a0-4beb-4e43-b4b1-cf5e1401e206</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Dropdown_Warehouse_country</name>
+   <tag></tag>
+   <elementGuidId>5aa7fbbc-dd03-4388-831f-2754533b9868</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>QuoteModelRoad_OprationalAddresses_1__Warehouse_Country_dropdown</value>
+   </webElementProperties>
+</WebElementEntity>

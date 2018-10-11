@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_switch-control__appearanc</name>
+   <tag></tag>
+   <elementGuidId>2b3e5f78-728e-4cae-ae3f-eb398afea854</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>switch-control__appearance</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;custom&quot;)/table[1]/tbody[1]/tr[3]/td[1]/div[@class=&quot;switch-control mb-0 js-switch-control&quot;]/label[@class=&quot;switch-control__label&quot;]/span[@class=&quot;switch-control__appearance&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

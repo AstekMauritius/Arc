@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nationality_dropdown</name>
+   <tag></tag>
+   <elementGuidId>4776f6ab-4c94-446a-8665-7ebf4944e1e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;Nationality_dropdown&quot;)/span[@class=&quot;e-icon e-arrow-sans-down&quot;][count(. | //span[@class = 'e-icon e-arrow-sans-down' and @aria-label = 'select' and @unselectable = 'on']) = count(//span[@class = 'e-icon e-arrow-sans-down' and @aria-label = 'select' and @unselectable = 'on'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>e-icon e-arrow-sans-down</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Nationality_dropdown&quot;)/span[@class=&quot;e-icon e-arrow-sans-down&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

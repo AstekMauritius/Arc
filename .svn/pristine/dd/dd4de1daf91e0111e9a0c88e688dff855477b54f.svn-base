@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Warehouse_Country_DropDown</name>
+   <tag></tag>
+   <elementGuidId>2798f82c-df81-48e6-9709-21bb23722e8b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>QuoteModelAir_OprationalAddresses_1__Warehouse_Country_dropdown</value>
+   </webElementProperties>
+</WebElementEntity>

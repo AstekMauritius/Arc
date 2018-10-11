@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_mdl-button__ripple-contai</name>
+   <tag></tag>
+   <elementGuidId>8bece6a4-b5d6-48c1-8dbf-e9ff6cbd843e</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdl-button__ripple-container</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;frmPrivateLeadPMS&quot;)/div[@class=&quot;stepper__content is-active&quot;]/div[@class=&quot;form__section form__section--bg mdl-shadow--2dp&quot;]/div[@class=&quot;form-control-group&quot;]/div[@class=&quot;form-control form-control--center full-width&quot;]/div[@class=&quot;button-control button-control--col&quot;]/div[@class=&quot;button-control__field&quot;]/button[@id=&quot;IsAnotherBranchPerformPMS&quot;]/span[@class=&quot;mdl-button__ripple-container&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

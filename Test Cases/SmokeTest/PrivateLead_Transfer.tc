@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>smoke test : private lead - transfer</description>
+   <name>PrivateLead_Transfer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e4b34a1-479f-4f44-9bfb-716ab8f37266</testCaseGuid>
+</TestCaseEntity>

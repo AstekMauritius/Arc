@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_mdl-button__ripple-contai</name>
+   <tag></tag>
+   <elementGuidId>e91f509b-15e9-4a6b-828d-77e557aff371</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdl-button__ripple-container</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;followUpDialog&quot;)/div[@class=&quot;mdl-card custom-card popup-card js-popup-card&quot;]/div[@class=&quot;mdl-card__supporting-text&quot;]/div[@class=&quot;follow-up-Schedule&quot;]/div[@class=&quot;appointment js-appointment&quot;]/div[@class=&quot;appointment__header&quot;]/button[@class=&quot;mdl-button mdl-js-button mdl-js-ripple-effect btn-icon btn-icon--right btn-fullscreen js-close-schedule-dialog&quot;]/span[@class=&quot;mdl-button__ripple-container&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

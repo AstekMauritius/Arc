@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Leads_Status_Button</name>
+   <tag></tag>
+   <elementGuidId>f1bf8f3a-07c2-40db-a89d-bd36280e7a87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'leadStatusButton' and (text() = 'Status' or . = 'Status') and @class = 'mdl-button mdl-js-button mdl-js-ripple-effect status-menu-btn js-status-menu-btn lowercase is-active' and @title = 'Awaiting quote, Draft, Not Handled, Pending PMS, Pending']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>leadStatusButton</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Status</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdl-button mdl-js-button mdl-js-ripple-effect status-menu-btn js-status-menu-btn lowercase is-active</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Awaiting quote, Draft, Not Handled, Pending PMS, Pending</value>
+   </webElementProperties>
+</WebElementEntity>
