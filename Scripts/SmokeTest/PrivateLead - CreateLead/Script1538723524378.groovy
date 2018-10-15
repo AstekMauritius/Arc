@@ -88,5 +88,28 @@ WebUI.click(findTestObject('PrivateLead - CreateLead/Page_Arcania - Lead Qualifi
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('PrivateLead - CreateLead/Page_Arcania - Lead Qualification/li_land Islands'))
+WebUI.click(findTestObject('PrivateLead - CreateLead/Page_Arcania - Lead Qualification/span_Albania2ndCountry'))
+
+WebUI.setText(findTestObject('PrivateLead - CreateLead/Page_Arcania - Lead Qualification/input_DestinationAddress.City2nd'), 
+    'Ksamil')
+
+WebUI.click(findTestObject('PrivateLead - CreateLead/Page_Arcania - Lead Qualification/SourceOfLead'))
+
+WebUI.click(findTestObject('PrivateLead - CreateLead/Page_Arcania - Lead Qualification/span_Internet Request'))
+
+WebUI.click(findTestObject('PrivateLead - CreateLead/Page_Arcania - Lead Qualification/CoordinatorDropDown'))
+
+WebUI.click(findTestObject('PrivateLead - CreateLead/Page_Arcania - Lead Qualification/span_John SMITH'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('PrivateLead - CreateLead/Page_Arcania - Lead Qualification/i_icon-arrow-right'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('PrivateLead - CreateLead/Page_Arcania - PMS/PMS Option'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('PrivateLead - CreateLead/Page_Arcania - PMS/a_Private Leads'))
 

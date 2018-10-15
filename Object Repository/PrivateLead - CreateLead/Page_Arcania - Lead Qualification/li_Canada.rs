@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_land Islands</name>
+   <name>li_Canada</name>
    <tag></tag>
-   <elementGuidId>1a4ebc80-9d0d-4906-9aed-a731246c7af4</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>b5095157-87eb-48d0-ab8c-55831157fd47</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -24,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-value</name>
       <type>Main</type>
-      <value>AX</value>
+      <value>CA</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,20 +39,20 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>e-hover</value>
+      <value>e-active e-hover</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Åland Islands</value>
+      <value>Canada</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/li[@class=&quot;e-hover&quot;]</value>
+      <value>/li[@class=&quot;e-active e-hover&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

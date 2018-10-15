@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_land Islands</name>
+   <name>button_Next</name>
    <tag></tag>
-   <elementGuidId>1a4ebc80-9d0d-4906-9aed-a731246c7af4</elementGuidId>
+   <elementGuidId>bbda53c9-cf5a-4763-98e6-342882d33dd8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//button[@class = 'button-step button-step--next js-step-next']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-value</name>
+      <name>type</name>
       <type>Main</type>
-      <value>AX</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>option</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>unselectable</name>
-      <type>Main</type>
-      <value>on</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>e-hover</value>
+      <value>button-step button-step--next js-step-next</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>validatePrivateLeadQualification();</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Åland Islands</value>
+      <value>
+                    
+                        Next
+                        PMS
+                    
+
+                    
+                </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/li[@class=&quot;e-hover&quot;]</value>
+      <value>id(&quot;frmCreateUpdatePrivateLeadQualification&quot;)/div[@class=&quot;stepper__content is-active&quot;]/div[@class=&quot;form__section form__section--bg form__section--wide-padding mdl-shadow--2dp&quot;]/div[@class=&quot;form__actions form__actions--stepper&quot;]/button[@class=&quot;button-step button-step--next js-step-next&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

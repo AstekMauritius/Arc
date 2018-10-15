@@ -1,37 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_land Islands</name>
+   <name>SourceOfLead</name>
    <tag></tag>
-   <elementGuidId>1a4ebc80-9d0d-4906-9aed-a731246c7af4</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>0a1ab1cf-66d5-43fe-8cb0-bd38c7cb41ff</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-value</name>
+      <name>class</name>
       <type>Main</type>
-      <value>AX</value>
+      <value>e-icon e-arrow-sans-down</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>aria-label</name>
       <type>Main</type>
-      <value>option</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,24 +35,10 @@
       <value>on</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>e-hover</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Åland Islands</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/li[@class=&quot;e-hover&quot;]</value>
+      <value>id(&quot;LeadDTO_SourceOfTheLeadId_dropdown&quot;)/span[@class=&quot;e-icon e-arrow-sans-down&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
