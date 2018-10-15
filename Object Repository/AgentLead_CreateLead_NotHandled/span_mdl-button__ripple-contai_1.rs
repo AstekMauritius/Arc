@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_mdl-button__ripple-contai_1</name>
+   <tag></tag>
+   <elementGuidId>23863074-a206-4598-ad59-1fa1aef49593</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdl-button__ripple-container</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;changeLanguageDialogContents&quot;)/div[@class=&quot;mdl-card custom-card popup-card js-popup-card language-popup&quot;]/div[@class=&quot;mdl-dialog__actions&quot;]/button[@class=&quot;mdl-button mdl-js-button mdl-js-ripple-effect btn-primary btn-ok js-btn-ok&quot;]/span[@class=&quot;mdl-button__ripple-container&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
