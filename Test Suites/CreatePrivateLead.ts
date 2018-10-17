@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CreatePrivateLead</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-10-17T13:30:53</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>60</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>44500c7e-a892-442e-ab93-c5cef562cd8c</testSuiteGuid>
+   <testCaseLink>
+      <guid>f004fefc-7223-45df-bba8-f410f62c4db4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SmokeTest/PrivateLead_CreateLead</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>80316bef-8840-4731-a079-a19af38ac077</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CreatePrivateLead_DataFiles</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>80316bef-8840-4731-a079-a19af38ac077</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Name</value>
+         <variableId>cc817d16-41e6-435e-bfc0-5a4ebb63d801</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>80316bef-8840-4731-a079-a19af38ac077</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Surname</value>
+         <variableId>24635b30-b1f1-4272-88d4-c91993e9a99f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>80316bef-8840-4731-a079-a19af38ac077</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>ebe89460-75e7-489c-b330-fc271a2d8b09</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>80316bef-8840-4731-a079-a19af38ac077</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Mobile Number </value>
+         <variableId>b51fac61-c3ee-4399-8e09-9419cf6f9bac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>80316bef-8840-4731-a079-a19af38ac077</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Nationality </value>
+         <variableId>450b2c6e-dd5d-410e-be09-0ec443b7a46b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

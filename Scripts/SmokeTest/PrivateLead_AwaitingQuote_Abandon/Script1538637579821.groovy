@@ -24,50 +24,50 @@ WebUI.openBrowser('https://arcania-integ.astek.mu/Leads/PrivateLeads?qid=6ED7CE0
 WebUI.navigateToUrl('https://arcania-integ.astek.mu/Leads/PrivateLeads?qid=6ED7CE004600AF71140512554056140A1A100E6B86339B1642200607455064D1DB531F19DA070A0000575F53000F0711')
 
 'Click on Status button '
-WebUI.click(findTestObject('Private lead/AwaitingQuote-Abandon/Status_button'))
+WebUI.click(findTestObject('Private lead/ToBeFollowedUp-Abandon/Status_button'))
 
-WebUI.scrollToElement(findTestObject('Private lead/AwaitingQuote-Abandon/label_Awaiting quote'), 0)
+WebUI.scrollToElement(findTestObject('Private lead/ToBeFollowedUp-Abandon/label_Awaiting quote'), 0)
 
 'Select Awaiting Quote label '
-WebUI.click(findTestObject('Private lead/AwaitingQuote-Abandon/label_Awaiting quote'))
+WebUI.click(findTestObject('Private lead/ToBeFollowedUp-Abandon/label_Awaiting quote'))
 
-WebUI.scrollToElement(findTestObject('Private lead/AwaitingQuote-Abandon/label_Draft'), 0)
+WebUI.scrollToElement(findTestObject('Private lead/ToBeFollowedUp-Abandon/label_Draft'), 0)
 
-WebUI.click(findTestObject('Private lead/AwaitingQuote-Abandon/label_Draft'))
+WebUI.click(findTestObject('Private lead/ToBeFollowedUp-Abandon/label_Draft'))
 
-WebUI.scrollToElement(findTestObject('Private lead/AwaitingQuote-Abandon/label_Not Handled'), 0)
+WebUI.scrollToElement(findTestObject('Private lead/ToBeFollowedUp-Abandon/label_Not Handled'), 0)
 
-WebUI.click(findTestObject('Private lead/AwaitingQuote-Abandon/label_Not Handled'))
+WebUI.click(findTestObject('Private lead/ToBeFollowedUp-Abandon/label_Not Handled'))
 
-WebUI.scrollToElement(findTestObject('Private lead/AwaitingQuote-Abandon/label_Pending'), 0)
+WebUI.scrollToElement(findTestObject('Private lead/ToBeFollowedUp-Abandon/label_Pending'), 0)
 
-WebUI.click(findTestObject('Private lead/AwaitingQuote-Abandon/label_Pending'))
+WebUI.click(findTestObject('Private lead/ToBeFollowedUp-Abandon/label_Pending'))
 
-WebUI.scrollToElement(findTestObject('Private lead/AwaitingQuote-Abandon/button_Apply'), 0)
+WebUI.scrollToElement(findTestObject('Private lead/ToBeFollowedUp-Abandon/button_Apply'), 0)
 
 'Click on apply button '
-WebUI.click(findTestObject('Private lead/AwaitingQuote-Abandon/button_Apply'))
+WebUI.click(findTestObject('Private lead/ToBeFollowedUp-Abandon/button_Apply'))
 
 'Click on not handled'
-WebUI.click(findTestObject('Private lead/AwaitingQuote-Abandon/AwaitingQuotecell_status'))
+WebUI.click(findTestObject('Private lead/ToBeFollowedUp-Abandon/AwaitingQuotecell_status'))
 
 'Click on abandon button'
-WebUI.click(findTestObject('Private lead/AwaitingQuote-Abandon/Abandon_button'))
+WebUI.click(findTestObject('Private lead/ToBeFollowedUp-Abandon/Abandon_button'))
 
 'Click on reason '
-WebUI.click(findTestObject('Object Repository/Private lead/AwaitingQuote-Abandon/label_Client could not be reac'))
+WebUI.click(findTestObject('Private lead/ToBeFollowedUp-Abandon/label_Client could not be reac'))
 
 'Click on submit button '
-WebUI.click(findTestObject('Object Repository/Private lead/AwaitingQuote-Abandon/button_Submit'))
+WebUI.click(findTestObject('Private lead/ToBeFollowedUp-Abandon/button_Submit'))
 
 'Click on status button '
-WebUI.click(findTestObject('Private lead/AwaitingQuote-Abandon/Status_button'))
+WebUI.click(findTestObject('Private lead/ToBeFollowedUp-Abandon/Status_button'))
 
 'Click on abandon label'
-WebUI.click(findTestObject('Object Repository/Private lead/AwaitingQuote-Abandon/label_Abandonned'))
+WebUI.click(findTestObject('Private lead/ToBeFollowedUp-Abandon/label_Abandonned'))
 
 'Click on apply button '
-WebUI.click(findTestObject('Object Repository/Private lead/AwaitingQuote-Abandon/button_Apply'))
+WebUI.click(findTestObject('Private lead/ToBeFollowedUp-Abandon/button_Apply'))
 
 WebUI.closeBrowser()
 

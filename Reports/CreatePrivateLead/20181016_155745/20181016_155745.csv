@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CreatePrivateLead,Firefox 58.0,,2018-10-16 15:57:47,2018-10-16 15:59:12,1m - 25.228s,FAILED
+,,,,,,
+Test Cases/SmokeTest/PrivateLead_CreateLead,Firefox 58.0,,2018-10-16 15:57:47,2018-10-16 15:57:53,6.404s,FAILED
+openBrowser,Firefox 58.0,,2018-10-16 15:57:48,2018-10-16 15:57:51,3.739s,FAILED
+,,,,,,
+Test Cases/SmokeTest/PrivateLead_CreateLead,Firefox 58.0,,2018-10-16 15:57:53,2018-10-16 15:57:58,4.936s,FAILED
+openBrowser,Firefox 58.0,,2018-10-16 15:57:53,2018-10-16 15:57:56,2.851s,FAILED
+,,,,,,
+Test Cases/SmokeTest/PrivateLead_CreateLead,Firefox 58.0,,2018-10-16 15:57:58,2018-10-16 15:59:12,1m - 13.532s,FAILED
+openBrowser,Firefox 58.0,,2018-10-16 15:57:58,2018-10-16 15:58:03,4.894s,PASSED
+navigateToUrl,Firefox 58.0,,2018-10-16 15:58:03,2018-10-16 15:58:03,0.193s,PASSED
+maximizeWindow,Firefox 58.0,,2018-10-16 15:58:03,2018-10-16 15:58:07,3.522s,PASSED
+setText,Firefox 58.0,Insert a valid Login / password and click on Sign in button,2018-10-16 15:58:07,2018-10-16 15:58:07,0.094s,PASSED
+setText,Firefox 58.0,,2018-10-16 15:58:07,2018-10-16 15:58:07,0.041s,PASSED
+click,Firefox 58.0,,2018-10-16 15:58:07,2018-10-16 15:58:09,1.445s,PASSED
+waitForPageLoad,Firefox 58.0,,2018-10-16 15:58:09,2018-10-16 15:58:09,0.053s,PASSED
+waitForElementPresent,Firefox 58.0,The dashboard appear,2018-10-16 15:58:09,2018-10-16 15:58:09,0.022s,PASSED
+waitForPageLoad,Firefox 58.0,,2018-10-16 15:58:09,2018-10-16 15:58:09,0.017s,PASSED
+click,Firefox 58.0,,2018-10-16 15:58:09,2018-10-16 15:59:10,1m - 0.902s,FAILED
