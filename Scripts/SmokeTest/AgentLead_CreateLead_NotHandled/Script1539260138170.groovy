@@ -26,7 +26,7 @@ WebUI.navigateToUrl('https://arcania-integ.astek.mu/Login')
 
 WebUI.setText(findTestObject('MainFolder/Login/input_Username'), 'b1@arc.com')
 
-WebUI.setEncryptedText(findTestObject('MainFolder/Login/input_Password'), 'nYgPIvXAGJo=')
+WebUI.setEncryptedText(findTestObject('MainFolder/Login/input_Password'), 'JVU6vGYNcKE=')
 
 WebUI.click(findTestObject('MainFolder/Login/SignIn'))
 
