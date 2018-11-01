@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Arcania_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af91fa69-0c1e-4c1b-aa7a-ac2757fd0195</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4566c8f9-1915-45dc-98e3-27db68be1e5f</id>
+      <masked>false</masked>
+      <name>varUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e8a0bd26-bd75-469e-bca1-79ad24dc968e</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
+</TestCaseEntity>

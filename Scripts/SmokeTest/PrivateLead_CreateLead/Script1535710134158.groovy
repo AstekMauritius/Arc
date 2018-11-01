@@ -53,9 +53,6 @@ WebUI.verifyElementPresent(findTestObject('Page_Arcania - Dashboard/Title_Intern
 'Verify Agents Leads'
 WebUI.verifyElementPresent(findTestObject('Page_Arcania - Dashboard/Title_AgentLeads'), 0)
 
-'Verify Corporate Initiations'
-WebUI.verifyElementPresent(findTestObject('Page_Arcania - Dashboard/Title_CorporateInitiations'), 0)
-
 'Verify leads title is present'
 WebUI.verifyTextPresent('LEADS', false)
 
@@ -65,9 +62,13 @@ WebUI.waitForPageLoad(2)
 WebUI.click(findTestObject('Page_Arcania - Dashboard/Title_PrivateClient'))
 
 WebUI.waitForPageLoad(5)
+
 WebUI.verifyTextPresent('LEADS', false)
 
 WebUI.waitForPageLoad(2)
+
+'Verify Corporate Initiations'
+WebUI.verifyElementPresent(findTestObject('Page_Arcania - Dashboard/Title_CorporateInitiations'), 0)
 
 'The private client GRID appear correctly'
 WebUI.waitForElementPresent(findTestObject('Page_Arcania - Leads/PrivateClient/PrivateGridList'), 0)
@@ -88,18 +89,18 @@ WebUI.waitForElementPresent(findTestObject('Page_Arcania - Leads/PrivateClient/l
 not_run: WebUI.click(findTestObject('Page_Arcania - Leads/PrivateClient/label_Mr'))
 
 'Insert Name:${name}'
-WebUI.setText(findTestObject('Page_Arcania - Leads/PrivateClient/input_Name'), 'Test')
+WebUI.setText(findTestObject('Page_Arcania - Leads/PrivateClient/input_Name'), varName)
 
 'Insert Surname:${surname}'
-WebUI.setText(findTestObject('Page_Arcania - Leads/PrivateClient/input_Surname'), 'Testeur')
+WebUI.setText(findTestObject('Page_Arcania - Leads/PrivateClient/input_Surname'), varSurname)
 
 'Insert email:${email}'
-WebUI.setText(findTestObject('Page_Arcania - Leads/PrivateClient/input_Email'), 'Test@emi.com')
+WebUI.setText(findTestObject('Page_Arcania - Leads/PrivateClient/input_Email'), varEmail)
 
 not_run: WebUI.click(findTestObject('Page_Arcania - Leads/PrivateClient/FlagSelctionMAU'))
 
 'Insert mobile number:${mobileNumber}'
-not_run: WebUI.setText(findTestObject('Page_Arcania - Leads/PrivateClient/input_phone'), '+230 5701 8545')
+not_run: WebUI.setText(findTestObject('Page_Arcania - Leads/PrivateClient/input_phone'), varMobileNum)
 
 'Insert nationality:${nationality}'
 WebUI.click(findTestObject('Page_Arcania - Leads/PrivateClient/li_British'))
