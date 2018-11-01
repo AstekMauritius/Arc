@@ -18,6 +18,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 
 WebUI.openBrowser('')
 
@@ -37,11 +38,11 @@ WebUI.click(findTestObject('MainFolder/Leads/button_Create Lead'))
 
 WebUI.click(findTestObject('MainFolder/General/Agent Leads - Create New Rate Request/General Information/DropDown_Agent Name'))
 
-WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/li_Air Mauritius'))
+WebUI.click(findTestObject('AgentLead_CreateLead_NotHandled/li_Microsoft'))
 
 WebUI.click(findTestObject('MainFolder/General/Agent Leads - Create New Rate Request/General Information/DropDown_Contact Person'))
 
-WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/li_Paul Lanchin'))
+WebUI.click(findTestObject('AgentLead_CreateLead_NotHandled/li_Tom Hilly'))
 
 WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/label_Full service'))
 
@@ -63,55 +64,71 @@ WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/in
 
 WebUI.click(findTestObject('AgentLead_CreateLead_NotHandled/DropDown_DoorDestinationCountry'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
-
 WebUI.click(findTestObject('AgentLead_CreateLead_NotHandled/antar'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_QuoteModelSea.Oprational_4'), 'a')
 
 WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_QuoteModelSea.Oprational_5'), '1234')
 
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_QuoteModelSea.Oprational_4'), 'a')
+
 WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/i_icon-arrow-right_1'))
 
-WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/span_e-icon e-arrow-sans-down'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('AgentLead_CreateLead_NotHandled/span_mCFTKGLBS'))
 
 WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/li_KG'))
 
 WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_TransportSectionList0.Op'), '12')
 
-WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/span_e-icon e-calendar'))
+WebUI.scrollToElement(findTestObject('AgentLead_CreateLead_NotHandled/CalenderExpected1'), 0)
 
-WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/td_24'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/span_e-icon e-calendar_1'))
+WebUI.click(findTestObject('AgentLead_CreateLead_NotHandled/CalenderExpected1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/td_31'))
+not_run: WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/td_24'))
 
-WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/label_Mr'))
+not_run: WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/span_e-icon e-calendar_1'))
 
-WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.Name'), 'Paul')
+not_run: WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/td_31'))
 
-WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.Surname'), 'Smith')
+not_run: WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/label_Mr'))
 
-WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.Email'), 'PSmith@gmail.com')
+not_run: WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.Name'), 'Paul')
 
-WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum'), '+1 111')
+not_run: WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.Surname'), 
+    'Smith')
 
-WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_1'), '+1 1111')
+not_run: WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.Email'), 'PSmith@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_2'), '+1 11111')
+not_run: WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum'), 
+    '+1 111')
 
-WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_3'), '+1 111111')
+not_run: WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_1'), 
+    '+1 1111')
 
-WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_4'), '+1 1111111')
+not_run: WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_2'), 
+    '+1 11111')
 
-WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_5'), '+1 11111111')
+not_run: WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_3'), 
+    '+1 111111')
 
-WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_6'), '+1 111111111')
+not_run: WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_4'), 
+    '+1 1111111')
 
-WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_7'), '+1 1111111111')
+not_run: WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_5'), 
+    '+1 11111111')
 
-WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_8'), '+1 111-111-1111')
+not_run: WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_6'), 
+    '+1 111111111')
 
-WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/i_icon-arrow-right_2'))
+not_run: WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_7'), 
+    '+1 1111111111')
+
+not_run: WebUI.setText(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/input_ShipperContact.MobileNum_8'), 
+    '+1 111-111-1111')
+
+not_run: WebUI.click(findTestObject('Object Repository/AgentLead_CreateLead_NotHandled/i_icon-arrow-right_2'))
 
